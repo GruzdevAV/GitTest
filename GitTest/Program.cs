@@ -7,6 +7,8 @@ namespace GitTest
         static void Main(string[] args)
         {
             Console.WriteLine(Test.TestString1);
+            Console.WriteLine(Test.TestString2);
+            Console.WriteLine(Test.TestString3);
             Console.Read();
         }
     }
