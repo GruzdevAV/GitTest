@@ -2,12 +2,19 @@
 
 namespace GitTest
 {
-    internal class Program
+    class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(Test.TestString);
+            Console.WriteLine(Test.TestString1);
             Console.Read();
         }
     }
+    public static class Test
+    {
+        public static string TestString1 => "TestString1";
+        public static string TestString2 => "TestString2";
+        public static string TestString3 => "TestString3";
+    }
+
 }
